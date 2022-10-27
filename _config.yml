@@ -8,9 +8,11 @@ paginate: 5
 plugins: [jekyll-paginate]
 port: 3000
 safe: true
+is_project_page: true
 
 
 # edit here to achieve your personal greatness
+repository_url: https://github.com/jekyllt/sustain
 url: http://username.github.io/
 baseurl: /sustain/
 title: Chris Turner
