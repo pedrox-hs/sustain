@@ -5,7 +5,11 @@ layout: layout
 <section id="about">
 	<div class="container">
 	  <div class="avatar">
+        {% if site.gravatar %}
+		<img class="img-circle" src="https://www.gravatar.com/avatar/{{ site.gravatar }}?s=190" alt="Responsive image">
+        {% else %}
 		<img class="img-circle" src="{{ site.baseurl }}assets/img/{{ site.avatar }}" alt="Responsive image">
+        {% endif %}
 	  </div>
 	  {{ content }}
 	  {% include social.html %}
