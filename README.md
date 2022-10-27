@@ -16,16 +16,16 @@ hosted in [Github pages](https://pages.github.com/).
 ## Screenshots
 
 **Home page**
-![home page](https://raw.githubusercontent.com/jekyllt/sustain/gh-pages/assets/images/screen1.png)
+![home page](static/images/screen1.png)
 
 **Blog page**
-![blog page](https://raw.githubusercontent.com/jekyllt/sustain/gh-pages/assets/images/screen2.png)
+![blog page](static/images/screen2.png)
 
 **Post page**
-![post page](https://raw.githubusercontent.com/jekyllt/sustain/gh-pages/assets/images/screen3.png)
+![post page](static/images/screen3.png)
 
 **Projects page**
-![project page](https://raw.githubusercontent.com/jekyllt/sustain/gh-pages/assets/images/screen4.png)
+![project page](static/images/screen4.png)
 
 
 ### Deployment
