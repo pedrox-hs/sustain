@@ -2,4 +2,12 @@
 layout: layout
 ---
 
-{{ content }}
+<section id="about">
+	<div class="container">
+	  <div class="avatar">
+		<img class="img-circle" src="{{ site.baseurl }}assets/img/{{ site.avatar }}" alt="Responsive image">
+	  </div>
+	  {{ content }}
+	  {% include social.html %}
+	</div>
+</section>
