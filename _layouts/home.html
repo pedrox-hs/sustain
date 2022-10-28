@@ -8,7 +8,7 @@ layout: default
         {% if site.gravatar %}
 		<img class="img-circle" src="https://www.gravatar.com/avatar/{{ site.gravatar }}?s=190" alt="Responsive image">
         {% else %}
-		<img class="img-circle" src="{{ site.baseurl }}assets/img/{{ site.avatar }}" alt="Responsive image">
+		<img class="img-circle" src="{{ '/assets/img/' | append: site.avatar | relative_url }}" alt="Responsive image">
         {% endif %}
 	  </div>
 	  {{ content }}
