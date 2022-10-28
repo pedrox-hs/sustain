@@ -17,14 +17,23 @@ author: Chris Turner
 description: Personal blog and resume
 avatar: profile.png
 email: yourname@email.com
-github_username: jekyllt # username
 twitter_username: username
-linkedin_username: username
-stackoverflow_username: username   #e.g: users/2735833/proton1h1
-medium_username: username #e.g: NobelPeaceOslo
 #Comment out if you don't want disqus
 disqus_username: username
 google_analytics: UA-69391421-1
+social:
+  - url: http://github.com/jekyllt
+    icon: github
+  - url: mailto:yourname@email.com
+    icon: envelope
+  - url: https://twitter.com/username
+    icon: twitter
+  - url: http://linkedin.com/in/username
+    icon: linkedin
+  - url: http://stackoverflow.com/username
+    icon: stack-overflow
+  - url: https://medium.com/@username
+    icon: medium
 
 # If you want to link only specific pages in your header, uncomment
 # this and add the path to the pages in order as they should show up
@@ -33,4 +42,7 @@ google_analytics: UA-69391421-1
 
 
 # needed for travis-ci build
-exclude: [vendor]
+exclude:
+  - vendor
+  - Gemfile
+  - Gemfile.lock
