@@ -26,6 +26,11 @@ medium_username: username #e.g: NobelPeaceOslo
 disqus_username: username
 google_analytics: UA-69391421-1
 
+# If you want to link only specific pages in your header, uncomment
+# this and add the path to the pages in order as they should show up
+#header_pages:
+# - about.md
+
 
 # needed for travis-ci build
 exclude: [vendor]
