@@ -8,11 +8,8 @@ paginate: 5
 plugins: [jekyll-paginate]
 port: 3000
 safe: true
-is_project_page: true
-
 
 # edit here to achieve your personal greatness
-repository_url: https://github.com/jekyllt/sustain
 url: http://username.github.io/
 baseurl: /sustain/
 title: Chris Turner
@@ -20,13 +17,13 @@ author: Chris Turner
 description: Personal blog and resume
 avatar: profile.png
 email: yourname@email.com
-github: jekyllt/sustain # username
-twitter: username
-linkedin: username
-stackoverflow: username   #e.g: users/2735833/proton1h1
-medium: username #e.g: NobelPeaceOslo
+github_username: jekyllt # username
+twitter_username: username
+linkedin_username: username
+stackoverflow_username: username   #e.g: users/2735833/proton1h1
+medium_username: username #e.g: NobelPeaceOslo
 #Comment out if you don't want disqus
-disqus: username
+disqus_username: username
 google_analytics: UA-69391421-1
 
 
